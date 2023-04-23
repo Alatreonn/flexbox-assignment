@@ -35,3 +35,46 @@ a {
     font-size: 24px;
     font-weight: 900;
 }
+
+.topcontent {
+    display: flex;
+
+    padding: 128px;
+    background-color: #1f2937;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: 9px;
+}
+
+.dummyimage {
+    background-color: #6d747d;
+    color: white;
+
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftside {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.toptitle {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.toptext {
+    font-size: 20px;
+}
+
+.signupbutton {
+    background-color: #3b82f6;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}
